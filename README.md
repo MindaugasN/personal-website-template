@@ -581,13 +581,3 @@ Using this template? Share your site and I'll add it here!
 ---
 
 **Building tools for the Bitcoin community | by [Mindaugas Nižauskas](https://nizauskas.com/)**
-
----
-
-## Changelog
-
-### v1.0.0 (2025-10-18)
-- Initial DIY template release
-- Base features: Homepage, CV display, mobile responsive
-- Optional features: Contact form, Umami analytics, Cal.com
-- Complete deployment guides for Vercel, Netlify, GitHub Pages
