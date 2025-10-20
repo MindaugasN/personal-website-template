@@ -496,24 +496,35 @@ function App() {
 ## 📦 Project Structure
 
 ```
-personal-website/
-├── public/                 # Static assets
-│   ├── profile.jpg        # Your headshot
-│   └── favicon.ico        # Browser icon
+personal-website-template/
+├── public/                      # Static assets
+│   ├── profile.jpg             # Your headshot (REPLACE THIS)
+│   ├── profile-opentobitcoin.png # Hover image (REPLACE/REMOVE)
+│   ├── favicon.svg             # Browser icon
+│   └── robots.txt              # SEO crawler instructions
 ├── src/
-│   ├── assets/            # Downloadable files
-│   │   └── cv-*.pdf       # Your CV/resume
+│   ├── assets/                 # Downloadable files
+│   │   └── PLACEHOLDER-CV.md   # Add your CV PDF here
 │   ├── components/
-│   │   └── ui/            # shadcn/ui components
+│   │   └── ui/                 # shadcn/ui components
+│   ├── hooks/                  # React hooks (shadcn/ui)
+│   ├── lib/                    # Utility functions
 │   ├── pages/
-│   │   └── Index.tsx      # Main homepage (CUSTOMIZE THIS)
-│   ├── App.tsx            # App entry point
-│   └── index.css          # Global styles + colors
+│   │   ├── Index.tsx           # Main homepage (CUSTOMIZE THIS)
+│   │   └── NotFound.tsx        # 404 page
+│   ├── App.tsx                 # App entry point
+│   ├── main.tsx                # React DOM entry
+│   └── index.css               # Global styles + colors
 ├── api/
-│   └── contact.ts         # Contact form serverless function
-├── .env.example           # Environment variables template
-├── package.json           # Dependencies
-└── vite.config.ts         # Vite configuration
+│   └── contact.ts              # Contact form serverless function
+├── .env.example                # Environment variables template
+├── README.md                   # This file
+├── CONTRIBUTING.md             # Contribution guidelines
+├── LICENSE                     # MIT License
+├── package.json                # Dependencies
+├── vite.config.ts              # Vite configuration
+├── tailwind.config.ts          # TailwindCSS configuration
+└── components.json             # shadcn/ui configuration
 ```
 
 ---
@@ -569,8 +580,7 @@ Using this template? Share your site and I'll add it here!
 
 ---
 
-**Built with ⚡ by [Mindaugas Nižauskas](https://nizauskas.com/)**
-**Building tools for the Bitcoin community**
+**Building tools for the Bitcoin community | by [Mindaugas Nižauskas](https://nizauskas.com/)**
 
 ---
 
