@@ -32,16 +32,32 @@ Most people earning in traditional careers while building in Bitcoin need to pos
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Two Ways to Get Started
+
+**Option 1: DIY (Do It Yourself)**
+- Clone this repository and set it up yourself
+- Follow the installation steps below
+- Full control, requires technical knowledge
+
+**Option 2: With Professional Help**
+- Need help setting this up? See [SETUP.md](./SETUP.md) for step-by-step GitHub setup instructions
+- Working with a developer? They'll handle the technical setup while you maintain ownership
+- Great for non-technical users who want a quick start
+
+---
+
+### Prerequisites (DIY Setup)
 
 - **Node.js** 22.x or higher ([install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
 - **npm** or **pnpm** (npm comes with Node.js)
 - **Git** for cloning the repository
+- **GitHub account** (free) - [Sign up here](https://github.com/signup)
 
-### Installation
+### Installation (DIY Setup)
 
 ```bash
-# 1. Clone this repository
+# 1. Use the "Use this template" button above (creates your own copy)
+# OR clone this repository
 git clone https://github.com/MindaugasN/personal-website-template.git
 cd personal-website-template
 
@@ -563,14 +579,18 @@ This template is free to use for personal websites. Attribution appreciated but 
 
 ## 🤝 Get Help
 
-**If you need help deploying this:**
+**Need help setting this up?**
 
-This template was created as part of the [Jobtober](https://jobtober.com/). If you're a Jobtober participant or [Bitvocation's POW Lab](https://www.bitvocation.com/pow-lab) member, I offer free setup assistance:
+📖 **Start here:** [SETUP.md](./SETUP.md) - Step-by-step guide for GitHub repository setup
+
+**Professional Setup Services:**
+
+This template was created as part of [Jobtober](https://jobtober.com/). If you're a Jobtober participant or [Bitvocation's POW Lab](https://www.bitvocation.com/pow-lab) member, I offer setup assistance:
 
 - **First 5 Jobtober participants:** Free setup + Year 1 hosting
-- **After that:** 21k sats/year for deployment + hosting
+- **After that:** 21k sats/year for deployment + hosting + features
 
-**DM "jobtober" on LinkedIn:** [linkedin.com/in/mindaugas-nizauskas](https://linkedin.com/in/mindaugas-nizauskas)
+**Contact:** DM "jobtober" on [LinkedIn](https://linkedin.com/in/mindaugas-nizauskas)
 
 ---
 
